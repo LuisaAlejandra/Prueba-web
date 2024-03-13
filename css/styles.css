@@ -26,3 +26,29 @@ div.absoluto{
     background-color: whitesmoke;
     z-index: -1;
 }
+
+div.contenedor{
+    position: relative;
+    border: 3px dashed greenyellow;
+    width: 30%;
+    margin: auto;
+}
+.imagen{
+    width: 100%;
+    opacity: .2;
+}
+div.centro{
+    position: absolute;
+    top: 50%;
+    width: 100%; /*para ocupar todo el espacio*/
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.over{
+    border: 3px dotted greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    overflow: auto;
+}
